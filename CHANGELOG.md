@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 (2026-11-25)
+
+
+### Changes
+
+* the Claude Code plugin manifest states the display name of the plugin, cTrader, and its documentation page in the cTrader Help Centre
+
 ## 0.1.1 (2026-11-25)
 
 
