@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/.claude-plugin/marketplace-schema.json",
+  "name": "ctrader-agent-plugin",
+  "owner": {
+    "name": "Spotware Systems Ltd",
+    "email": "support@ctrader.com"
+  },
+  "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.",
+  "metadata": {
+    "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand."
+  },
+  "plugins": [
+    {
+      "name": "ctrader",
+      "source": "./",
+      "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.",
+      "homepage": "https://ctrader.com/",
+      "license": "Proprietary",
+      "keywords": [
+        "ctrader",
+        "account-data",
+        "market-data",
+        "analytics"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

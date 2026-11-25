@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ctrader",
+  "version": "0.1.0",
+  "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.",
+  "author": {
+    "name": "Spotware Systems Ltd",
+    "email": "support@ctrader.com"
+  },
+  "homepage": "https://ctrader.com/",
+  "repository": "https://github.com/spotware/ctrader-agent-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "ctrader",
+    "account-data",
+    "market-data",
+    "analytics"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "cTrader",
+        "shortDescription": "Account and market data",
+        "longDescription": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.\n\nReview balances, equity, open positions, pending orders and trade history. Compare bid and ask prices, inspect historical candles and calculate summaries from your connected account. Diagnose connection problems and find orders by their client identifiers.\n\nOn request, prepare a new-order link or a link to an existing position or pending order. These links open cTrader forms where you can review an order, close a position, cancel a pending order or edit its settings yourself. Generating a link does not execute the action.\n\nConnect using read-only data access. The included skill provides analytics and non-executing links; it does not execute trades, sell products or process payments.",
+        "developerName": "Spotware Systems Ltd",
+        "category": "Data & Analytics",
+        "defaultPrompt": [
+          "Summarise my cTrader account, open positions and pending orders.",
+          "Compare the latest EURUSD and USDJPY bid and ask prices.",
+          "Prepare a cTrader order-form link for a EURUSD market buy. Do not place the order."
+        ],
+        "websiteURL": "https://ctrader.com/mcp-server-for-trading",
+        "supportURL": "https://help.ctrader.com/ctrader/miscellaneous/troubleshoot/",
+        "privacyPolicyURL": "https://www.spotware.com/privacy-policy/",
+        "termsOfServiceURL": "https://www.spotware.com/terms-of-service/",
+        "logo": "./assets/ctrader-logo.png",
+        "composerIcon": "./assets/ctrader-logo.png",
+        "logoDark": "./assets/ctrader-logo-dark.png",
+        "composerIconDark": "./assets/ctrader-logo-dark.png",
+        "brandColor": "#FF101F",
+        "brandColorDark": "#FF101F"
+      }
+    }
+  }
+}

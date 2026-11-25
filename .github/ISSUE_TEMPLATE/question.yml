@@ -1,0 +1,50 @@
+name: Question
+description: Ask a question about the cTrader plugin
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, you may find your answer in the existing documentation:
+
+        - [README](https://github.com/spotware/ctrader-agent-plugin#readme): overview and installation
+        - [CONTRIBUTING](https://github.com/spotware/ctrader-agent-plugin/blob/main/CONTRIBUTING.md): releases and how to propose a change
+        - [cTrader Help Centre](https://help.ctrader.com/): cTrader platform reference
+
+        Questions about the **cTrader platform itself** (charts, accounts, broker behavior) or about your cTrader account should go to the [cTrader Help Centre](https://help.ctrader.com/), not this issue tracker.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe your question in detail. Include what you are trying to achieve and any relevant context. Never include passwords, access tokens or account details.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic Area
+      description: What area does your question relate to?
+      options:
+        - Installation / Setup
+        - Plugin usage with a specific AI agent
+        - Signing in to the cTrader MCP server
+        - Account and market data
+        - Order links
+        - Contributing / proposing a change
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What I've Tried
+      description: Describe what you have already tried or investigated. This helps avoid suggesting things you already know.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context or configuration details that may help answer your question.

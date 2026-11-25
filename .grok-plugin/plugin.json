@@ -1,0 +1,19 @@
+{
+  "name": "ctrader",
+  "version": "0.1.0",
+  "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.",
+  "author": {
+    "name": "Spotware Systems Ltd",
+    "email": "support@ctrader.com"
+  },
+  "homepage": "https://ctrader.com/",
+  "repository": "https://github.com/spotware/ctrader-agent-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "ctrader",
+    "account-data",
+    "market-data",
+    "analytics"
+  ],
+  "logo": "assets/ctrader-logo.png"
+}
