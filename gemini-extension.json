@@ -1,6 +1,6 @@
 {
   "name": "ctrader",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The MCP server connects your AI agent to cTrader, exposing account and market data as tools the agent can call on demand.",
   "mcpServers": {
     "ctrader": {

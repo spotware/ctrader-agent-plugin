@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 (2026-11-25)
+
+
+### Changes
+
+* the documentation page of the plugin is the market analysis guide of the cTrader Help Centre, which covers prices, historical candles, trade history and position analysis
+
 ## 0.1.2 (2026-11-25)
 
 
